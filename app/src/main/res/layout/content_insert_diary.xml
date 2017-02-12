@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="60dp"
+    android:orientation="vertical" >
+
+    <TextView android:text="Diary Title"
+        android:id="@+id/textView1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+       >
+    </TextView>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/editText1"
+        android:hint="geef titel">
+    </EditText>
+    <TextView
+        android:text="Content"
+        android:id="@+id/textView2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="top"
+        android:inputType="none"
+        android:hint="geef content">
+
+    </EditText>
+
+</LinearLayout>
